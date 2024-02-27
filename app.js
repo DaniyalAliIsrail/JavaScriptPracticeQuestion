@@ -834,3 +834,9 @@
 // } else {
 //    document.write("invalid statement");
 //  }
+
+let reverseArr = "daniyal";
+
+for(i=reverseArr.length; i>=0; i--){
+    print(reverseArr[i]);
+}
