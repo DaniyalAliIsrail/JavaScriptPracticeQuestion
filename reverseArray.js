@@ -6,5 +6,3 @@ for(let i=reverseArr.length-1; i>=0; i--){
     newArr.push(reverseArr[i]);  
 }
 console.log(newArr);
-
-
