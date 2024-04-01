@@ -15,20 +15,22 @@
 // })
 // console.log(data);
 
+let arr = [1,2,3,4,5]
 Array.prototype.myMap1 = function(cb) {
     let newArray = [];
     for(let i = 0; i < this.length; i++) {
-        newArray.push(cb(this[i]),i,this[i]);
+        newArray.push(cb(this[i],i,arr));
     }
     return newArray;
 }
 
-let arr = [1, 2, 3, 4, 5];
+// let square = function(x) {
+//     return x * x;
+// }
 
-let square = function(x) {
-    return x * x;
-}
-
-const myFun = arr.myMap1(square);
+const myFun = arr.myMap1((arrayEachSingleElement , index , orginalArray)=>{
+    console.log(arrayEachSingleElement, index ,orginalArray);
+    return arrayEachSingleElement * arrayEachSingleElement
+});
 console.log(myFun);
 
