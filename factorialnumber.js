@@ -19,5 +19,5 @@ const fibo = (num)=>{
     }
 }
 
-const factNum = fibo(5);
+const factNum = fibo(3);
 console.log(factNum);
