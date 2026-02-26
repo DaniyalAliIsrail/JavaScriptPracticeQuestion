@@ -1,5 +1,5 @@
 
-let name = "daniyal is good daniyal is a good hello daniyal hello";
+let name = "daniyal is good boi daniyal is a good hello daniyal hello boi";
 let nameArr = name.split(" ")
 let unique = [];
 let seen = {};
