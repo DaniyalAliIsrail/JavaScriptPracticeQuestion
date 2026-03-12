@@ -7,7 +7,7 @@ if (num[0] > num[1]) {
   max2 = num[1];
 } else {
   max1 = num[1];
-  max2 = num[2];
+  max2 = num[0];
 }
 
 for (let i = 2; i <= num.length - 1; i++) {
